@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function() {
     const submitButton = document.querySelector(".submit");
     const popupContainer = document.querySelector(".popup-container");
@@ -7,12 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
     popupContainer.style.display = "none";
 
     submitButton.addEventListener("click", function() {
-        // Redirect ke WhatsApp
-        window.location.href = "https://wa.me/628987807705";
+        popupContainer.style.display = "flex";
+        submitButton.style.display = "none";
     });
 
     closeButton.addEventListener("click", function() {
         popupContainer.style.display = "none";
-        submitButton.style.display = "block";
+        submitButton.style.display = "block"; // balik ke kondisi awal
     });
 });
