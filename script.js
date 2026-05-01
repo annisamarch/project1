@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     submitButton.addEventListener("click", function() {
         // Redirect ke WhatsApp
-        window.location.href = "https://wa.me/6287889";
+        window.location.href = "https://wa.me/628987807705";
     });
 
     closeButton.addEventListener("click", function() {
