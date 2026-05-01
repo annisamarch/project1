@@ -7,12 +7,12 @@ document.addEventListener("DOMContentLoaded", function() {
     popupContainer.style.display = "none";
 
     submitButton.addEventListener("click", function() {
-        popupContainer.style.display = "flex";
-        submitButton.style.display = "none";
+        // Redirect ke WhatsApp
+        window.location.href = "https://wa.me/6287889";
     });
 
     closeButton.addEventListener("click", function() {
         popupContainer.style.display = "none";
-        submitButton.style.display = "block"; // balik ke kondisi awal
+        submitButton.style.display = "block";
     });
 });
